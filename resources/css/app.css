@@ -1,3 +1,43 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* public/css/style.css */
+
+/* Reset sederhana */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+}
+
+/* Heading */
+h1 {
+  color: #2563eb;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e13737;
+}
+
+/* Card */
+.card {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #3267d2;
+  border-radius: 0.75rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
