@@ -4,7 +4,9 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\AlatController;
+use App\Http\Controllers\GambarAlatController;
 
+Route::resource('gambar_alat', GambarAlatController::class);
 Route::resource('alat', AlatController::class);
 Route::get('/alat/{alat}', [AlatController::class, 'show'])->name('alat.show');
 
